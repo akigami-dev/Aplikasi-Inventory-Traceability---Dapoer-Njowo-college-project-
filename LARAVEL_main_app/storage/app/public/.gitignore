@@ -1,0 +1,10 @@
+# Ignore everything by default
+*
+
+# But don't ignore these folders (so git will track the folders)
+!images/
+
+# Also keep this .gitignore file tracked
+!.gitignore
+
+#

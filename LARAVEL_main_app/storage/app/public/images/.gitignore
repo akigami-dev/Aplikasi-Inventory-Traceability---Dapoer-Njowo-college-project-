@@ -1,0 +1,31 @@
+# Ignore everything by default
+*
+
+# Track entire assets folder and all files inside
+!assets/
+!assets/**
+
+# But don't ignore these folders (so git will track the folders)
+!avatars/
+!master_produk/
+!produksi/
+!sertifikasi/
+
+# Inside those folders, ignore everything
+avatars/*
+master_produk/*
+produksi/*
+sertifikasi/*
+
+# Except these default images
+!avatars/default.png
+!avatars/default.jpg
+!master_produk/default.png
+!master_produk/default.jpg
+!produksi/default.png
+!produksi/default.jpg
+!sertifikasi/default.png
+!sertifikasi/default.jpg
+
+# Also keep this .gitignore file tracked
+!.gitignore

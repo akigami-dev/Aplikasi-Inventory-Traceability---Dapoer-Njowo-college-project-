@@ -1,0 +1,6 @@
+pillow
+qrcode
+requests
+fastapi[standard]
+opencv-contrib-python
+matplotlib

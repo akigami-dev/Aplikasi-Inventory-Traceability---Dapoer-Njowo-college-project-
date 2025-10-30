@@ -1,0 +1,178 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import 'tailwindcss';
+@import "tailwindcss-primeui";
+@import 'primeicons/primeicons.css';
+
+@plugin 'tailwind-scrollbar'{
+    nocompatible: true;
+}
+
+@theme {
+  --breakpoint-phone: 20rem;
+  --breakpoint-tablet: 40rem;
+  --breakpoint-laptop: 64rem;
+  --breakpoint-desktop: 80rem;
+}
+
+
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+*{
+    font-family: "Roboto", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: theme(--color-surface-100) !important;
+}
+
+/* Tailwind Settings */
+@layer base {
+    .default-transition {
+        @apply transition-all duration-700 ease-in-out;
+    }
+
+    .color-transition, div, span, a, p, button, input, textarea, label, li, ul, ol, section, header, footer, article, aside, nav, main, svg, path, select, fieldset, legend, details, summary{
+        @apply transition-[background-color,border-color,outline-color,text-decoration-color,fill,stroke] duration-400 ease-in-out;
+    }
+
+    .main-wrapper{
+        /* @apply transition-colors duration-400 ease-in-out; */
+        @apply bg-surface-0 dark:bg-surface-900 border-surface-200 dark:border-surface-700
+    }
+
+    .main-container{
+        @apply bg-surface-0 dark:bg-surface-900 border-surface-200 dark:border-surface-700 p-4 rounded
+    }
+}
+
+@layer base{
+    img { 
+        display: initial;
+    }
+}
+
+.bg-success {
+    background-color: var(--color-green-400);
+}
+.bg-danger {
+    background-color: var(--color-red-400);
+}
+.bg-warning {
+    background-color: var(--color-yellow-400);
+}
+.bg-info {
+    background-color: var(--color-blue-400);
+}
+
+/* Nprogress settings */
+#nprogress .bar {
+    background-color: theme(--color-primary);
+}
+
+#nprogress .spinner-icon {
+    border-top-color: theme(--color-primary);
+    border-left-color: theme(--color-primary);
+}
+
+#nprogress .peg{
+    box-shadow: 0 0 10px theme(--color-primary-200), 0 0 5px theme(--color-primary-200);
+}
+
+/* Primary and Surface Palettes */
+:root {
+    --p-primary-50: #fef9f3;
+    --p-primary-100: #fae1c4;
+    --p-primary-200: #f7c995;
+    --p-primary-300: #f3b266;
+    --p-primary-400: #f09a38;
+    --p-primary-500: #ec8209;
+    --p-primary-600: #c96f08;
+    --p-primary-700: #a55b06;
+    --p-primary-800: #824805;
+    --p-primary-900: #5e3404;
+    --p-primary-950: #3b2102;
+
+    --p-surface-0: #ffffff;
+    --p-surface-50: #fafafa;
+    --p-surface-100: #f4f4f5;
+    --p-surface-200: #e4e4e7;
+    --p-surface-300: #d4d4d8;
+    --p-surface-400: #a1a1aa;
+    --p-surface-500: #71717a;
+    --p-surface-600: #52525b;
+    --p-surface-700: #3f3f46;
+    --p-surface-800: #27272a;
+    --p-surface-900: #18181b;
+    --p-surface-950: #09090b;
+
+    --p-content-border-radius: 6px;
+}
+
+
+
+/* LIGHT Mode */
+:root {
+    --p-primary-color: var(--p-primary-500);
+    --p-primary-contrast-color: var(--p-surface-0);
+    --p-primary-hover-color: var(--p-primary-600);
+    --p-primary-active-color: var(--p-primary-700);
+    --p-surface-color: var(--p-surface-500);
+    --p-content-border-color: var(--p-surface-200);
+    --p-content-hover-background: var(--p-surface-100);
+    --p-content-hover-color: var(--p-surface-800);
+    --p-highlight-background: var(--p-primary-50);
+    --p-highlight-color: var(--p-primary-700);
+    --p-highlight-focus-background: var(--p-primary-100);
+    --p-highlight-focus-color: var(--p-primary-800);
+    --p-text-color: var(--p-surface-700);
+    --p-text-hover-color: var(--p-surface-800);
+    --p-text-muted-color: var(--p-surface-500);
+    --p-text-hover-muted-color: var(--p-surface-600);
+}
+
+/* DARK Mode */
+:root.dark{
+    --p-primary-color: var(--p-primary-400);
+    --p-primary-contrast-color: var(--p-surface-900);
+    --p-primary-hover-color: var(--p-primary-300);
+    --p-primary-active-color: var(--p-primary-200);
+    --p-surface-color: var(--p-surface-400);
+    --p-content-border-color: var(--p-surface-700);
+    --p-content-hover-background: var(--p-surface-800);
+    --p-content-hover-color: var(--p-surface-0);
+    --p-highlight-background: color-mix(in srgb, var(--p-primary-400), transparent 84%);
+    --p-highlight-color: rgba(255, 255, 255, 0.87);
+    --p-highlight-focus-background: color-mix(in srgb, var(--p-primary-400), transparent 76%);
+    --p-highlight-focus-color: rgba(255, 255, 255, 0.87);
+    --p-text-color: var(--p-surface-0);
+    --p-text-hover-color: var(--p-surface-0);
+    --p-text-muted-color: var(--p-surface-400);
+    --p-text-hover-muted-color: var(--p-surface-300);
+}
+
+.dark {
+    color-scheme: dark;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* @plugin "daisyui" {
+    themes: light --default, dark --prefersdark, cupcake;
+} */
+
+.avoid-page-break {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+/* .html2pdf__overlay {
+    display: none !important;
+} */
