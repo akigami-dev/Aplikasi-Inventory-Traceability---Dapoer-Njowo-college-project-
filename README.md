@@ -72,6 +72,9 @@ Even though it’s not currently in production, it reflects my effort to apply t
 
 ---
 
+## 🚀 Installation Guide
+To install the project, go here: [Go to Installation Guide](SETUP.md)
+
 ### 🏷️ Keywords
 `Laravel` `Vue` `FastAPI` `Inventory Management` `QR Code` `Traceability` `UMKM`
 
