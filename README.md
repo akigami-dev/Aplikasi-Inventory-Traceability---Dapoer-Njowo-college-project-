@@ -56,19 +56,19 @@ Even though it’s not currently in production, it reflects my effort to apply t
 
 ## 📸 (Optional) Screenshots / Tampilan Aplikasi
 Login page:
-![Alt text](img/login.png)
+![Login Page](img/login.png)
 
 Restok Bahan Baku page:
-![Alt text](img/restok-bahan-baku.png)
+![Restok Bahan Baku Page](img/restok-bahan-baku.png)
 
 Lot Bahan Baku Detail (popup) page:
-![Alt text](img/lot-bahan-baku-detail.png)
+![Lot Bahan Baku Detail Popup Page](img/lot-bahan-baku-detail.png)
 
 Trace page:
-![Alt text](img/trace.png)
+![Trace Page](img/trace.png)
 
 Trace Detail Result page:
-![Alt text](img/trace-detail.png)
+![Trace Detail Result Page](img/trace-detail.png)
 
 ---
 
