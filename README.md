@@ -54,20 +54,20 @@ Even though it’s not currently in production, it reflects my effort to apply t
 
 ---
 
-## 📸 (Optional) Screenshots / Tampilan Aplikasi
-Login page:
+## 📸 Screenshots / Tampilan Aplikasi
+# Login page:
 ![Login Page](img/login.png)
 
-Restok Bahan Baku page:
+# Restok Bahan Baku page:
 ![Restok Bahan Baku Page](img/restok-bahan-baku.png)
 
-Lot Bahan Baku Detail (popup) page:
+# Lot Bahan Baku Detail (popup) page:
 ![Lot Bahan Baku Detail Popup Page](img/lot-bahan-baku-detail.png)
 
-Trace page:
+# Trace page:
 ![Trace Page](img/trace.png)
 
-Trace Detail Result page:
+# Trace Detail Result page:
 ![Trace Detail Result Page](img/trace-detail.png)
 
 ---
