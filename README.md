@@ -55,6 +55,7 @@ Even though it’s not currently in production, it reflects my effort to apply t
 ---
 
 ## 📸 (Optional) Screenshots / Tampilan Aplikasi
+<<<<<<< HEAD
 Login page:
 ![Alt text](img/login.png)
 
@@ -69,10 +70,16 @@ Trace page:
 
 Trace Detail Result page:
 ![Alt text](img/trace-detail.png)
+=======
+*(Tambahkan tangkapan layar atau GIF demo di sini jika masih tersedia.)*
+>>>>>>> 17496aff63086a1837d73cd67ec5478ae8c4f5c8
 
 ---
 
 ### 🏷️ Keywords
 `Laravel` `Vue` `FastAPI` `Inventory Management` `QR Code` `Traceability` `UMKM`
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 17496aff63086a1837d73cd67ec5478ae8c4f5c8
