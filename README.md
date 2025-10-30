@@ -1,6 +1,6 @@
-# Aplikasi Inventory Traceability - Dapper Njowo
+# Aplikasi Inventory Traceability - Dapoer Njowo
 
-This was my **final college project**, built for a local **UMKM (Usaha Mikro, Kecil, dan Menengah)** named *Dapper Njowo*.  
+This was my **final college project**, built for a local **UMKM (Usaha Mikro, Kecil, dan Menengah)** named *Dapoer Njowo*.  
 The purpose of this project was to help the business manage its **inventory and product traceability** using a simple web-based system.
 
 Although the app was not deployed for daily use, it served as a complete learning experience in both backend and frontend development, and taught me a lot about system design and architecture.
@@ -9,7 +9,7 @@ Although the app was not deployed for daily use, it served as a complete learnin
 
 ## 🇮🇩 Deskripsi (Bahasa Indonesia)
 
-Proyek ini merupakan **tugas akhir kuliah** yang saya buat untuk **UMKM Dapper Njowo**.  
+Proyek ini merupakan **tugas akhir kuliah** yang saya buat untuk **UMKM Dapoer Njowo**.  
 Tujuannya adalah untuk membantu pengelolaan **stok bahan baku, produk, dan pelacakan (traceability)** melalui sistem berbasis web.
 
 Aplikasi ini belum digunakan secara aktif oleh UMKM terkait, namun proses pembuatannya memberikan pengalaman nyata dalam pengembangan web full-stack dan perancangan arsitektur sistem.
@@ -61,3 +61,4 @@ Even though it’s not currently in production, it reflects my effort to apply t
 
 ### 🏷️ Keywords
 `Laravel` `Vue` `FastAPI` `Inventory Management` `QR Code` `Traceability` `UMKM`
+
